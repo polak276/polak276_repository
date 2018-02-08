@@ -133,7 +133,7 @@ namespace Meble_v_1._00.Languages {
         }
         
         /// <summary>
-        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wybierz język.
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wybierz język aplikacji.
         /// </summary>
         public static string mm_choose_language {
             get {
