@@ -1,0 +1,17 @@
+﻿<Window x:Class="Meble_v_1._00.Tworzenie_nowego_zlecenia"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Meble_v_1._00"
+        xmlns:l="clr-namespace:Meble_v_1._00.Languages"
+        mc:Ignorable="d"
+        Title="Tworzenie_nowego_zlecenia" Height="302.528" Width="539.326">
+    <Grid>
+        <Button x:Name="button_cno_add_cupboard" Content="{x:Static l:Lang.nz_button_add_cupboard}" HorizontalAlignment="Left" Margin="94,44,0,0" VerticalAlignment="Top" Width="142" Height="71" Click="button_cno_add_cupboard_Click" />
+        <Button Content="{x:Static l:Lang.nz_view_created_furnish}" HorizontalAlignment="Left" Margin="284,44,0,0" VerticalAlignment="Top" Width="188" Height="71"/>
+        <Button Content="{x:Static l:Lang.nz_save_order}" HorizontalAlignment="Left" Margin="94,148,0,0" VerticalAlignment="Top" Width="142" Height="71"/>
+        <Button Content="{x:Static l:Lang.nz_back}" HorizontalAlignment="Left" Margin="284,182,0,0" VerticalAlignment="Top" Width="91" Height="37" Click="Button_Click"/>
+
+    </Grid>
+</Window>

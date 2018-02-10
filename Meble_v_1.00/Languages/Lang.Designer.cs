@@ -140,5 +140,50 @@ namespace Meble_v_1._00.Languages {
                 return ResourceManager.GetString("mm_choose_language", resourceCulture);
             }
         }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Cofnij.
+        /// </summary>
+        public static string nf_back {
+            get {
+                return ResourceManager.GetString("nf_back", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Cofnij.
+        /// </summary>
+        public static string nz_back {
+            get {
+                return ResourceManager.GetString("nz_back", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Dodaj szafkę.
+        /// </summary>
+        public static string nz_button_add_cupboard {
+            get {
+                return ResourceManager.GetString("nz_button_add_cupboard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Zapisz zamówienie.
+        /// </summary>
+        public static string nz_save_order {
+            get {
+                return ResourceManager.GetString("nz_save_order", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Przeglądaj stworzone szafki.
+        /// </summary>
+        public static string nz_view_created_furnish {
+            get {
+                return ResourceManager.GetString("nz_view_created_furnish", resourceCulture);
+            }
+        }
     }
 }

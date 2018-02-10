@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="{x:Static l:Lang.App_name_and_version}" Height="363.764" Width="704.916">
     <Grid>
-        <Button x:Name="button_main_menu_create_new_order" Content="{x:Static l:Lang.mm_button_new_order}" HorizontalAlignment="Left" Margin="69,62,0,0" VerticalAlignment="Top" Width="183" Height="97"/>
+        <Button x:Name="button_main_menu_create_new_order" Content="{x:Static l:Lang.mm_button_new_order}" HorizontalAlignment="Left" Margin="69,62,0,0" VerticalAlignment="Top" Width="183" Height="97" Click="button_main_menu_create_new_order_Click"/>
         <Button x:Name="button_main_menu_load_order" Content="{x:Static l:Lang.mm_button_load_order}" HorizontalAlignment="Left" Margin="378,62,0,0" VerticalAlignment="Top" Width="163" Height="97"/>
         <Button x:Name="button_main_menu_help" Content="{x:Static l:Lang.mm_button_help}" HorizontalAlignment="Left" Margin="238,203,0,0" VerticalAlignment="Top" Width="125" Height="45"/>
         <Button Content="{x:Static l:Lang.mm_choose_language}" HorizontalAlignment="Left" Margin="557,263,0,0" VerticalAlignment="Top" Width="108" Height="36" Click="Button_Click"/>

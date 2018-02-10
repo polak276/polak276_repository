@@ -10,38 +10,35 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Meble_v_1._00.Languages;
 using System.Globalization;
-using System.Threading;
 
 namespace Meble_v_1._00
 {
     /// <summary>
-    /// Logika interakcji dla klasy MainWindow.xaml
+    /// Logika interakcji dla klasy Tworzenie_nowego_zlecenia.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Tworzenie_nowego_zlecenia : Window
     {
-        public MainWindow()
+
+        public Tworzenie_nowego_zlecenia()
         {
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            ustawienie_jezyka ust_jez = new ustawienie_jezyka();
-
-            ust_jez.creatingForm = this;
-            ust_jez.ShowDialog();
+            MainWindow mainwindow = new MainWindow();
+            this.Close();
+            mainwindow.ShowDialog();
         }
 
-        private void button_main_menu_create_new_order_Click(object sender, RoutedEventArgs e)
+        private void button_cno_add_cupboard_Click(object sender, RoutedEventArgs e)
         {
-            Tworzenie_nowego_zlecenia new_order = new Tworzenie_nowego_zlecenia();
-
+            Wybieranie_szafek new_cupboard = new Wybieranie_szafek();
             this.Close();
-            new_order.ShowDialog();
+            new_cupboard.ShowDialog();
         }
     }
 }

@@ -22,3 +22,7 @@ C:\Users\polak27\source\repos\Meble_v_1.00\Meble_v_1.00\obj\Debug\ustawienie_jez
 C:\Users\polak27\source\repos\Meble_v_1.00\Meble_v_1.00\bin\Debug\en\Meble_v_1.00.resources.dll
 C:\Users\polak27\source\repos\Meble_v_1.00\Meble_v_1.00\obj\Debug\Meble_v_1._00.Languages.Lang.en.resources
 C:\Users\polak27\source\repos\Meble_v_1.00\Meble_v_1.00\obj\Debug\en\Meble_v_1.00.resources.dll
+C:\Users\polak27\source\repos\Meble_v_1.00\Meble_v_1.00\obj\Debug\Tworzenie_nowego_zlecenia.g.cs
+C:\Users\polak27\source\repos\Meble_v_1.00\Meble_v_1.00\obj\Debug\Tworzenie_nowego_zlecenia.baml
+C:\Users\polak27\source\repos\Meble_v_1.00\Meble_v_1.00\obj\Debug\Wybieranie_szafek.g.cs
+C:\Users\polak27\source\repos\Meble_v_1.00\Meble_v_1.00\obj\Debug\Wybieranie_szafek.baml

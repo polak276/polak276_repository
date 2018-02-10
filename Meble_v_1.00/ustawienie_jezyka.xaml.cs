@@ -22,7 +22,6 @@ namespace Meble_v_1._00
     /// </summary>
     public partial class ustawienie_jezyka : Window
     {
-        Window creatingForm;
 
         public ustawienie_jezyka()
         {
@@ -44,10 +43,10 @@ namespace Meble_v_1._00
             }
         }
 
-        public Window setCreatingForm
+        public Window creatingForm
         {
-            get { return creatingForm; }
-            set { creatingForm = value; }
+            get;
+            set;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

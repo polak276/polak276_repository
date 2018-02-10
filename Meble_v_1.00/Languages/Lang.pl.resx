@@ -144,4 +144,19 @@
   <data name="mm_choose_language" xml:space="preserve">
     <value>Wybierz język</value>
   </data>
+  <data name="nf_back" xml:space="preserve">
+    <value>Cofnij</value>
+  </data>
+  <data name="nz_back" xml:space="preserve">
+    <value>Cofnij</value>
+  </data>
+  <data name="nz_button_add_cupboard" xml:space="preserve">
+    <value>Dodaj szafkę</value>
+  </data>
+  <data name="nz_save_order" xml:space="preserve">
+    <value>Zapisz zamówienie</value>
+  </data>
+  <data name="nz_view_created_furnish" xml:space="preserve">
+    <value>Przeglądaj stworzone szafki</value>
+  </data>
 </root>

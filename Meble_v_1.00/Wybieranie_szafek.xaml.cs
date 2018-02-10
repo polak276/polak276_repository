@@ -10,36 +10,24 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Meble_v_1._00.Languages;
-using System.Globalization;
-using System.Threading;
 
 namespace Meble_v_1._00
 {
     /// <summary>
-    /// Logika interakcji dla klasy MainWindow.xaml
+    /// Logika interakcji dla klasy Wybieranie_szafek.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Wybieranie_szafek : Window
     {
-        public MainWindow()
+        public Wybieranie_szafek()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            ustawienie_jezyka ust_jez = new ustawienie_jezyka();
-
-            ust_jez.creatingForm = this;
-            ust_jez.ShowDialog();
-        }
-
-        private void button_main_menu_create_new_order_Click(object sender, RoutedEventArgs e)
+        private void button_back_Click(object sender, RoutedEventArgs e)
         {
             Tworzenie_nowego_zlecenia new_order = new Tworzenie_nowego_zlecenia();
-
             this.Close();
             new_order.ShowDialog();
         }
